@@ -1,0 +1,11 @@
+.img-container {
+  height: 10px;
+  float: left;
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  margin: 6px;
+  margin-left: 6px;
+}
+.image {
+  height: 700%;
+}

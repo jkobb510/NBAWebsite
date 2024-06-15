@@ -1,0 +1,7 @@
+/* Add this to your styles.css or a similar global CSS file */
+.main-content {
+  margin-left: 200px; /* Adjust this value to match the width of your left nav bar */
+  padding: 20px;
+}
+
+
