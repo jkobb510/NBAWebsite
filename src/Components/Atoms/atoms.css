@@ -17,3 +17,9 @@
 .image {
   height: 700%;
 }
+.playerName {
+  font-size: 14px;
+}
+.playerInfo {
+  font-size: 12px;
+}
