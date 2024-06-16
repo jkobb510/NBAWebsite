@@ -1,28 +1,14 @@
 import React from "react";
 import "./NBACard.css";
-import Stat from "../Atoms/Stat/Stat";
-
+import CardStats from "./CardStats/CardStats";
 
 class Player {
-  constructor(name, team, years, position, ppg, rpg, apg, height, weight, imgSrc) {
+  constructor(name, team, years, position, imgSrc) {
     this.name = name;
     this.team = team;
     this.years = years;
     this.position = position;
-    this.ppg = ppg;
-    this.rpg = rpg;
-    this.apg = apg;
-    this.height = height;
-    this.weight = weight;
     this.imgSrc = imgSrc;
-  }
-
-  getFullHeight() {
-    return `${this.height} (${(this.height * 0.3048).toFixed(2)}m)`;
-  }
-
-  getFullWeight() {
-    return `${this.weight}lb (${(this.weight * 0.453592).toFixed(1)}kg)`;
   }
 
   renderCard() {
@@ -33,13 +19,7 @@ class Player {
           <div className="playerName">{this.name}</div>
           <div className ="playerTeam">{this.team} ({this.years})</div>
           <div className="playerPosition">Position: {this.position}</div>
-          <div className="card-stats">
-            <Stat label="PPG" value={this.ppg} />
-            <Stat label="RPG" value={this.rpg} />
-            <Stat label="APG" value={this.apg} />
-            <Stat label="HEIGHT" value={this.getFullHeight()} />
-            <Stat label="WEIGHT" value={this.getFullWeight()} />
-          </div>
+          <CardStats />
         </div>
       </div>
     );

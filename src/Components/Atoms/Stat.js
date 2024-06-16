@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Stat.css';
+import './atoms.css';
 
 const Stat = ({ label, value }) => {
     return (

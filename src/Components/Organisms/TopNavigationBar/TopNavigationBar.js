@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./TopNavigationBar.css";
-import ImageComponent from "../Logo/Logo";
+import ImageComponent from "../../Atoms/Logo";
 
 const TopNavigationBar = () => {
   return (
