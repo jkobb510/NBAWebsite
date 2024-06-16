@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import NBACard from "./NBACard/NBACard";
-import CardButton from "./CardButton/CardButton.js";
-import "./CardButton/CardButton.css";
-import giannis from "./CardButton/giannis.jpg"
-import luka from "./CardButton/luka.jpg"
+import CardButton from "../Organisms/CardButton/CardButton";
+import NBACard from "../Organisms/NBACard/NBACard";
+import giannis from "./client/images/giannis.jpg"
+import luka from "./client/images/luka.jpg"
 import "./Main.css"
 
 

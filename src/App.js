@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import LeftNavigationBar from "./Components/LeftNavigationBar/LeftNavigationBar";
-import TopNavigationBar from "./Components/TopNavigationBar/TopNavigationBar";
+import LeftNavigationBar from "./Components/Organisms/LeftNavigationBar/LeftNavigationBar";
+import TopNavigationBar from "./Components/Organisms/TopNavigationBar/TopNavigationBar";
 import "./styles.css";
-import Main from "./Components/Main"; // Import the new Main component
+import Main from "./Components/Pages/Main"; // Import the new Main component
 
 export default function App() {
     return (

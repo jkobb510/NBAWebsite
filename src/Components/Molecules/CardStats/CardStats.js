@@ -1,4 +1,4 @@
-import "./molecules.css";
+import "./Molecules/molecules.css";
 import React from "react";
 import Stat from "./Atoms/Stat/Stat";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./NBACard.css";
-import CardStats from "./CardStats/CardStats";
-
+import CardStats from "../../Molecules/CardStats";
+import CardInfo from "../../Molecules/CardInfo";
 class Player {
   constructor(name, team, years, position, imgSrc) {
     this.name = name;
@@ -16,9 +16,7 @@ class Player {
       <div className="nba-card">
         <img loading="lazy" src={this.imgSrc} alt={this.name} />
         <div className="card-content">
-          <div className="playerName">{this.name}</div>
-          <div className ="playerTeam">{this.team} ({this.years})</div>
-          <div className="playerPosition">Position: {this.position}</div>
+          <CardInfo />
           <CardStats />
         </div>
       </div>

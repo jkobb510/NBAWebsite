@@ -33,7 +33,7 @@ Make sure you have Node.js and npm installed on your machine.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-repo/nba-fantasy-website.git
+    git clone https://github.com/jkobb510/NBAWebsite.git
     ```
 
 2. Navigate to the project directory:
@@ -66,8 +66,7 @@ src/
       Stat/
         Stat.js
         atoms.css
-
-    Logo/
+        Logo.js
     Molecules/
       CardStats.js
       molecules.css
